@@ -36,9 +36,9 @@ interface Statement {
 }
 
 const AVALANCHE_CHAIN_ID = '0xa86a'; // 43114 in hex
-const EAS_CONTRACT_ADDRESS = "0x5B51697d5230c77d08669829bf3Fc4C2eB925634"; // AAS Contract
-const SCHEMA_UID = "0x5ff28f77c14df8f8f27dc94d27f01a95a40584fee056f42bd689cdffd5b46322"; // Replace with your schema UID
-const RESOLVER_ADDRESS = "0x5cc6e13cfcf5aca1fb546afbfe5c09bd6065df38"; // Replace with your resolver address
+const EAS_CONTRACT_ADDRESS = "0x5B51697d5230c77d08669829bf3Fc4C2eB925634"; // 
+const SCHEMA_UID = "0x5ff28f77c14df8f8f27dc94d27f01a95a40584fee056f42bd689cdffd5b46322"; // 
+const RESOLVER_ADDRESS = "0x5cc6e13cfcf5aca1fb546afbfe5c09bd6065df38"; 
 
 const AttestationApp = () => {
   const [statements, setStatements] = useState<Statement[]>([]);
