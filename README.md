@@ -7,3 +7,4 @@ error: Object literal may only specify known properties, and 'ethers' does not e
 error: ',' expected. Ln 275
 
 error: Property 'transactionHash' does not exist on type 'string'.  Ln 278
+(I know snowtrace needs to be added to get the transactionHash)
