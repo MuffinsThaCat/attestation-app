@@ -272,7 +272,7 @@ const AttestationApp = () => {
           recipient: ethers.ZeroAddress,
           expirationTime: BigInt(0),
           revocable: true,
-           ethers.encodeBytes32String(statement.content)  // Fixed: properly set the data property
+           ethers.encodeBytes32String(statement.content) 
         }
       });
   
